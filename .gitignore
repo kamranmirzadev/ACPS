@@ -1,0 +1,18 @@
+﻿# WordPress core
+wp-admin/
+wp-includes/
+
+# Heavy plugin and upload folders
+**/plugins/elementor/
+**/uploads/
+
+# Cache, logs and backups
+**/cache/
+*.log
+*.zip
+*.sql
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
